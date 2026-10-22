@@ -1,0 +1,7 @@
+
+.env
+.venv/
+__pycache__/
+*.pyc
+main_respaldo.py
+main_corregido.py

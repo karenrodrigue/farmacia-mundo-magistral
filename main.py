@@ -43,7 +43,7 @@ def listar_productos(
             text("""
                 SELECT id_producto, codigo, nombre,
                        precio_compra, precio_venta,
-                       stock_actual, stock_minimo
+                       stock_actual, stock_minimo, activo
                 FROM public.products
                 ORDER BY id_producto
             """)
